@@ -1,0 +1,43 @@
+PODS:
+  - netfox (1.21.0)
+  - Networking (0.1.0):
+    - RxCocoa (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.19.0):
+    - SDWebImage/Core (= 5.19.0)
+  - SDWebImage/Core (5.19.0)
+
+DEPENDENCIES:
+  - netfox (= 1.21.0)
+  - Networking (from `DevPods/Networking`)
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - netfox
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Networking:
+    :path: DevPods/Networking
+
+SPEC CHECKSUMS:
+  netfox: 9d5cc727fe7576c4c7688a2504618a156b7d44b7
+  Networking: a8e982e075815ef390073d3021a65a459a147365
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: 981fd7e860af070920f249fd092420006014c3eb
+
+PODFILE CHECKSUM: 2b85c0c3702d63d88ba24a93179e85d76fa0bba5
+
+COCOAPODS: 1.15.2
